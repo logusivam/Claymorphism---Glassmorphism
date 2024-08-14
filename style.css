@@ -7,5 +7,12 @@
 
 body, html
 {
-    font-family: "poppins", ;
+    font-family: "poppins", sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-size: 12pt;
+    font-weight: 400;
+    color: black;
 }
