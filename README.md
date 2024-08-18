@@ -21,7 +21,7 @@ This project showcases a unique blend of Claymorphism and Glassmorphism effects 
 To use this project, you can download or clone the repository:
 
 ```bash
-git clone https://github.com/logusivam/Claymorphism + Glassmorphism.git
+git clone https://github.com/logusivam/Claymorphism---Glassmorphism.git
 ```
 
 Alternatively, you can directly copy the HTML and CSS files into your project directory.
