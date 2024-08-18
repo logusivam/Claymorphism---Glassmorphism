@@ -65,4 +65,20 @@ div::before
 div > p
 {
     position: relative;
+    right: 5px;
+    font-size: 34pt;
+    font-weight: 900;
+    margin: 0;
+    padding: 20px 35px 10px 25px;
+    line-height: 36pt;
+    text-align: center;
+    color: #3d0d49;
+    align-self: center;
+    order: 2;
+}
+
+div > p > span
+{
+    position: absolute;
+    
 }
