@@ -43,4 +43,7 @@ div
     max-height: 400px;
     background: linear-gradient(35deg, white 0%, white 84.7%, mediumorchid 85%, mediumorchid 91%, white 91.3%);
     box-shadow: 0 10px 60px 0 darkviolet, inset 0px -10px 17px 2px mediumorchid;
+    border-radius: 25px;
+    z-index: -1;
 }
+
