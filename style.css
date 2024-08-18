@@ -127,6 +127,7 @@ div::after
     border: 0.1px solid transparent;
 }
 
+/* image and and make the top left glass */
 div > div
 {
     all: unset;
@@ -139,5 +140,9 @@ div > div
     justify-content: center;
     margin: 35px 0px 40px 30px;
     border-radius: 15px;
-    background: url();
+    background: url("https://picsum.photos/id/640/1280/800");
+    background-size: cover;
+    background-position: center;
+    border: 0.1px solid mediumorchid;
+    z-index: -1;
 }
