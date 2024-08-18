@@ -160,6 +160,7 @@ div > div::before
     background: mediumorchid;
     mix-blend-mode: color;
     border-radius: 15px;
+    z-index: -1;
 }
 
 /* vanish the top left glass and its texts */
