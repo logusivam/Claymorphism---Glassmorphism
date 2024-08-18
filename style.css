@@ -146,3 +146,25 @@ div > div
     border: 0.1px solid mediumorchid;
     z-index: -1;
 }
+
+/* make the image color to bg color */
+div > div::before
+{
+    all: unset;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: mediumorchid;
+    mix-blend-mode: color;
+    border-radius: 15px;
+}
+
+/* vanish the top left glass and its texts */
+div  > div::after
+{
+    all: unset;
+
+}
