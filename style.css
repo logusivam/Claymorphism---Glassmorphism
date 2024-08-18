@@ -30,6 +30,7 @@ body
     padding: 0;
 }
 
+/* white bg and top right Strip */
 div
 {
     position: relative;
@@ -47,6 +48,7 @@ div
     z-index: -1;
 }
 
+/* bottom circle */
 div::before
 {
     position: absolute;
@@ -62,6 +64,7 @@ div::before
     border: 0.1px solid transparent;
 }
 
+/* content  */
 div > p
 {
     position: relative;
@@ -77,8 +80,47 @@ div > p
     order: 2;
 }
 
+/* horizontal Strip */
 div > p > span
 {
     position: absolute;
-    
+    bottom: 4px;
+    left: 45px;
+    width: 55%;
+    height: 20px;
+    background: mediumorchid;
+    content: "";
+    z-index: -1;
+}
+
+/* year */
+div > p > i 
+{
+   color: white;
+   text-shadow: 1px 1px 0px mediumorchid, 2px 2px 0px mediumorchid, 
+               3px 3px 0px mediumorchid, -1px -1px 0px mediumorchid;
+}
+
+div::after
+{
+    backdrop-filter: blur(5px);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-left: 20px;
+    padding-bottom: 28px;
+    top: -35px;
+    left: -23px;
+    width: 50%;
+    height: 50%;
+    background: #ffffff55;
+    content: "Claymorphism + Glassmorphism";
+    text-align: center;
+    color: #3e0d4a;
+    line-height: 16pt;
+    font-weight: 700;
+    border-radius: 15px;
+    box-shadow: 0 5px 30px ;
 }
