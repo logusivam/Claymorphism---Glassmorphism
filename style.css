@@ -58,5 +58,11 @@ div::before
     content: "";
     border-radius: 200px;
     background: #ffffff66;
-    box-shadow: 0 10px 25px 0 darkviolet;
+    box-shadow: 0 10px 25px 0 darkviolet, inset 0px -8px 15px 0px purple;
+    border: 0.1px solid transparent;
+}
+
+div > p
+{
+    position: relative;
 }
